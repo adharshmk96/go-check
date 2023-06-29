@@ -9,7 +9,7 @@ NEW_TAG_PATCH := v$(MAJOR).$(MINOR).$(NEW_PATCH)
 NEW_TAG_MINOR := v$(MAJOR).$(NEW_MINOR).0
 NEW_TAG_MAJOR := v$(NEW_MAJOR).0.0
 
-.PHONY: patch minor major build test publish keygen serve init initci moddownload migrate
+.PHONY: patch minor major build test testci publish
 
 ##########################
 ### Manage Commands
